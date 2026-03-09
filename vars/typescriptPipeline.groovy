@@ -1,6 +1,7 @@
 def call() {
 
     pipeline {
+        //We can use any agent like linux or windows
         agent any
 
         tools {
